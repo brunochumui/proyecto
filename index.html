@@ -7,31 +7,32 @@
     <style>
         .seccion { display: none; } /* Oculta todas las secciones por defecto */
         .activo { display: block; } /* Muestra la sección activa */
+      
+
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="x" alt="" class="">
-            <h2 class="logo_compañia"></h2>
-        </div>
-        <nav>
-            <a href="sobre nosotros" class="nav-link">Sobre Nosotros</a>
-            <a href="contacto" class="nav-link">Contacto</a>        
-        </nav>
+        
+            <div class="logo">
+                <img src="x" alt="Logo de El Jardín de Felipe">
+                <h2 class="logo_compañia">El Jardín de Felipe</h2>
+            </div>
+            <nav class="menu-navegacion">
+                <a href="#inicio" class="nav-link">Inicio</a><br>
+                <a href="#indicacioneslaborales" class="nav-link">Indicaciones Laborales</a><br>
+                <a href="#herramientasdetrabajo" class="nav-link">Herramientas de Trabajo</a><br>
+                <a href="#wiki-garden" class="nav-link">Wiki Garden</a><br>
+                <a href="#riego" class="nav-link">Información sobre Riego</a><br>
+                <a href="#ayuda" class="nav-link">Ayuda o Preguntas</a>
+            </nav>
+    
+    
     </header>
     
     <h1>Bienvenidos a El Jardín de Felipe</h1>
-<!-- Menú de navegación -->
-    <nav>
-        <a href="#" onclick="mostrarSeccion('inicio')">Inicio</a><br>
-        <a href="#" onclick="mostrarSeccion('indicacioneslaborales')">Ir a Indicaciones Laborales</a><br>
-        <a href="#" onclick="mostrarSeccion('herramientasdetrabajo')">Ir Herramientas de Trabajo</a><br>
-        <a href="#" onclick="mostrarSeccion('riego')">Ir a Informacion sobre Riego</a><br>
-        <a href="#" onclick="mostrarSeccion('wiki-garden')">Ir a Wiki Garden</a><br>
-        <a href="#" onclick="mostrarSeccion('ayuda')">Ir a Ayuda o Preguntas</a>
-    </nav>
-<!-- Sección de Inicio -->
+
 <section id="Inicio" class="seccion activo">
     <h2>Introducción</h2>
     <img src="./imagenes/inicioimg1.webp" alt="El Jardin de Felipe"> 
