@@ -68,3 +68,46 @@ h1{
 html {
     scroll-behavior: smooth;
   }
+
+  footer {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: rgb(122, 13, 13) ;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:blueviolet ;
+}
+
+img{
+    display: inline-block;
+    border-style:inset ;
+    border-radius: 11px;
+    border-color:rgb(197, 156, 156) ;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.important {
+margin:0 auto ;
+width: 960px;
+height: 7900px;
+background-color: rgb(211, 163, 100);
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imgns{
+    display: flex;
+    justify-content: center;  
+    margin-top: 20px;
+}
