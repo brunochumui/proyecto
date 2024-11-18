@@ -49,3 +49,22 @@ nav ul li a:hover {
     display: inline-block;
     text-decoration: none;
 }
+
+h2 {
+    display: inline-block;
+    border-style:inset ;
+    border-radius: 11px;
+    border-color: rgb(211, 211, 34);
+}
+
+h1{
+    display: inline-block;
+    border-style:inset ;
+    border-radius: 11px;
+    border-color:brown ;
+    color:black;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
