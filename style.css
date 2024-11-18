@@ -31,3 +31,18 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+
+.menu-navegacion {
+    margin: 20px 0;
+    display: flex;
+    text-decoration: none;
+    gap:30px;
+}
+
+.menu-navegacion a {
+    color: white;
+    margin: 5px 0;
+    display: inline-block;
+    text-decoration: none;
+}
